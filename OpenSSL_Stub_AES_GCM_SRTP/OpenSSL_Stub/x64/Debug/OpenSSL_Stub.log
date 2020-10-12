@@ -1,0 +1,32 @@
+﻿LINK : warning LNK4098: defaultlib 'LIBCMTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+OpenSSL_Stub_SRTP.obj : error LNK2019: unresolved external symbol EVP_Cipher referenced in function "enum srtp_err_status_t __cdecl srtp_aes_gcm_openssl_set_aad(void *,unsigned char *,unsigned int)" (?srtp_aes_gcm_openssl_set_aad@@YA?AW4srtp_err_status_t@@PEAXPEAEI@Z)
+libsrtp-i386-win32-vc6-debug.lib(aes_gcm_ossl.obj) : error LNK2001: unresolved external symbol EVP_Cipher
+OpenSSL_Stub_SRTP.obj : error LNK2019: unresolved external symbol EVP_CipherInit_ex referenced in function "enum srtp_err_status_t __cdecl srtp_aes_gcm_openssl_context_init(void *,unsigned char const *)" (?srtp_aes_gcm_openssl_context_init@@YA?AW4srtp_err_status_t@@PEAXPEBE@Z)
+libsrtp-i386-win32-vc6-debug.lib(aes_gcm_ossl.obj) : error LNK2001: unresolved external symbol EVP_CipherInit_ex
+OpenSSL_Stub_SRTP.obj : error LNK2019: unresolved external symbol EVP_CIPHER_CTX_new referenced in function "enum srtp_err_status_t __cdecl srtp_aes_gcm_openssl_alloc(struct srtp_cipher_t * *,int,int)" (?srtp_aes_gcm_openssl_alloc@@YA?AW4srtp_err_status_t@@PEAPEAUsrtp_cipher_t@@HH@Z)
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2001: unresolved external symbol EVP_CIPHER_CTX_new
+libsrtp-i386-win32-vc6-debug.lib(aes_gcm_ossl.obj) : error LNK2001: unresolved external symbol EVP_CIPHER_CTX_new
+OpenSSL_Stub_SRTP.obj : error LNK2019: unresolved external symbol EVP_CIPHER_CTX_free referenced in function "enum srtp_err_status_t __cdecl srtp_aes_gcm_openssl_dealloc(struct srtp_cipher_t *)" (?srtp_aes_gcm_openssl_dealloc@@YA?AW4srtp_err_status_t@@PEAUsrtp_cipher_t@@@Z)
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2001: unresolved external symbol EVP_CIPHER_CTX_free
+libsrtp-i386-win32-vc6-debug.lib(aes_gcm_ossl.obj) : error LNK2001: unresolved external symbol EVP_CIPHER_CTX_free
+OpenSSL_Stub_SRTP.obj : error LNK2019: unresolved external symbol EVP_CIPHER_CTX_ctrl referenced in function "enum srtp_err_status_t __cdecl srtp_aes_gcm_openssl_set_iv(void *,unsigned char *,enum srtp_cipher_direction_t)" (?srtp_aes_gcm_openssl_set_iv@@YA?AW4srtp_err_status_t@@PEAXPEAEW4srtp_cipher_direction_t@@@Z)
+libsrtp-i386-win32-vc6-debug.lib(aes_gcm_ossl.obj) : error LNK2001: unresolved external symbol EVP_CIPHER_CTX_ctrl
+OpenSSL_Stub_SRTP.obj : error LNK2019: unresolved external symbol EVP_aes_128_gcm referenced in function "enum srtp_err_status_t __cdecl srtp_aes_gcm_openssl_context_init(void *,unsigned char const *)" (?srtp_aes_gcm_openssl_context_init@@YA?AW4srtp_err_status_t@@PEAXPEBE@Z)
+libsrtp-i386-win32-vc6-debug.lib(aes_gcm_ossl.obj) : error LNK2001: unresolved external symbol EVP_aes_128_gcm
+OpenSSL_Stub_SRTP.obj : error LNK2019: unresolved external symbol EVP_aes_256_gcm referenced in function "enum srtp_err_status_t __cdecl srtp_aes_gcm_openssl_context_init(void *,unsigned char const *)" (?srtp_aes_gcm_openssl_context_init@@YA?AW4srtp_err_status_t@@PEAXPEBE@Z)
+libsrtp-i386-win32-vc6-debug.lib(aes_gcm_ossl.obj) : error LNK2001: unresolved external symbol EVP_aes_256_gcm
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2019: unresolved external symbol EVP_EncryptInit_ex referenced in function srtp_aes_icm_openssl_context_init
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2019: unresolved external symbol EVP_EncryptUpdate referenced in function srtp_aes_icm_openssl_encrypt
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2019: unresolved external symbol EVP_EncryptFinal_ex referenced in function srtp_aes_icm_openssl_encrypt
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2019: unresolved external symbol EVP_aes_128_ctr referenced in function srtp_aes_icm_openssl_context_init
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2019: unresolved external symbol EVP_aes_192_ctr referenced in function srtp_aes_icm_openssl_context_init
+libsrtp-i386-win32-vc6-debug.lib(aes_icm_ossl.obj) : error LNK2019: unresolved external symbol EVP_aes_256_ctr referenced in function srtp_aes_icm_openssl_context_init
+libsrtp-i386-win32-vc6-debug.lib(hmac.obj) : error LNK2019: unresolved external symbol EVP_MD_CTX_new referenced in function srtp_sha1_init
+libsrtp-i386-win32-vc6-debug.lib(hmac.obj) : error LNK2019: unresolved external symbol EVP_MD_CTX_free referenced in function srtp_sha1_final
+libsrtp-i386-win32-vc6-debug.lib(hmac.obj) : error LNK2019: unresolved external symbol EVP_DigestUpdate referenced in function srtp_sha1_update
+libsrtp-i386-win32-vc6-debug.lib(hmac.obj) : error LNK2019: unresolved external symbol EVP_DigestInit referenced in function srtp_sha1_init
+libsrtp-i386-win32-vc6-debug.lib(hmac.obj) : error LNK2019: unresolved external symbol EVP_DigestFinal referenced in function srtp_sha1_final
+libsrtp-i386-win32-vc6-debug.lib(hmac.obj) : error LNK2019: unresolved external symbol EVP_sha1 referenced in function srtp_sha1_init
+..\Debug\libssl.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+..\Debug\libcrypto.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Work\libSRTP\OpenSSL_Stub_AES_GCM\OpenSSL_Stub_AES_GCM\x64\Debug\OpenSSL_Stub_SRTP.exe : fatal error LNK1120: 19 unresolved externals
